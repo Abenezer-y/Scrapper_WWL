@@ -167,6 +167,7 @@ def scrape_aacess_point():
 
 def scrapper_app():
     if login(user_name=email , user_name_selector=email_css , pw=pw , pw_selector=pw_css , btn_selector=sign_in_btn) == 'Logged In':
+        print('here 0')
         select_report()
         print('here')
         time.sleep(3)
